@@ -13,7 +13,9 @@ void ofApp::setup(){
 	ofEnableBlendMode(OF_BLENDMODE_ADD);
 	// ofEnableBlendMode(OF_BLENDMODE_ALPHA);
 	
-	image.loadImage( "light_gray.png" );
+	
+	// image.loadImage( "light_gray.png" );
+	image.loadImage( "light_Square.png" );
 	
 	setup_gui();
 	
